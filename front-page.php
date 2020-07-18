@@ -18,10 +18,10 @@
                     </div>
                     <div class="vl"></div>
                     <p class="caption-content py-5 flex-center-vert text-left">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus euismod condimentum. 
-                        Donec pharetra lorem sit amet ligula semper dignissim a in ipsum. 
-                        Duis placerat ante vitae orci aliquet congue. 
-                        Sed ultricies urna volutpat justo vehicula, ut varius dolor vestibulum. 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus euismod condimentum.
+                        Donec pharetra lorem sit amet ligula semper dignissim a in ipsum.
+                        Duis placerat ante vitae orci aliquet congue.
+                        Sed ultricies urna volutpat justo vehicula, ut varius dolor vestibulum.
                     </p>
                 </div>
             </div>
@@ -53,7 +53,7 @@
     </div>
 </section>
 
-<section class="blog mt-5">
+<section class="blog mt-5 mb-5">
     <div class="container">
         <div class="row mb-4">
             <div class="col text-center">
@@ -61,6 +61,110 @@
                     Najnowsze aktualności
                 </div>
                 <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-6 mb-3">
+                
+                    <div class="card">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img src="https://www.skanska.pl/globalassets/externalcontent2/project/portland-public-schools-franklin-high-school-renovation/9f1146bd-a02a-4174-a4f0-86c6df2f46fb.1.jpg?download" class="card-img" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <p class="card-title text-right mb-1">01.01.1990</p>
+                                    <p class="card-text text-right my-auto">Lorem ipsum dolor sit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+            <div class="col-12 col-lg-6 mb-3">
+                
+                    <div class="card ">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="https://www.skanska.pl/globalassets/externalcontent2/project/portland-public-schools-franklin-high-school-renovation/9f1146bd-a02a-4174-a4f0-86c6df2f46fb.1.jpg?download" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title text-right mb-1">01.01.1990</p>
+                                    <p class="card-text text-right my-auto">Lorem ipsum dolor sit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+            <div class="col-12 col-lg-6 mb-3">
+                
+                    <div class="card ">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="https://www.skanska.pl/globalassets/externalcontent2/project/portland-public-schools-franklin-high-school-renovation/9f1146bd-a02a-4174-a4f0-86c6df2f46fb.1.jpg?download" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title text-right mb-1">01.01.1990</p>
+                                    <p class="card-text text-right my-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur adipiscing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+            <div class="col-12 col-lg-6 mb-3">
+                
+                <div class="card">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="https://www.skanska.pl/globalassets/externalcontent2/project/portland-public-schools-franklin-high-school-renovation/9f1146bd-a02a-4174-a4f0-86c6df2f46fb.1.jpg?download" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="card-title text-right mb-1">01.01.1990</p>
+                                <p class="card-text text-right my-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-12 col-lg-6 mb-3">
+                
+                <div class="card">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="https://www.skanska.pl/globalassets/externalcontent2/project/portland-public-schools-franklin-high-school-renovation/9f1146bd-a02a-4174-a4f0-86c6df2f46fb.1.jpg?download" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="card-title text-right mb-1">01.01.1990</p>
+                                <p class="card-text text-right my-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-12 col-lg-6 mb-3">
+                
+                <div class="card">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="https://www.skanska.pl/globalassets/externalcontent2/project/portland-public-schools-franklin-high-school-renovation/9f1146bd-a02a-4174-a4f0-86c6df2f46fb.1.jpg?download" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="card-title text-right mb-1">01.01.1990</p>
+                                <p class="card-text text-right my-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </div>
