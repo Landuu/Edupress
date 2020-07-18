@@ -22,7 +22,7 @@ add_action('after_setup_theme', 'register_navwalker');
 
 // Theme options
 add_theme_support('menus');
-
+add_theme_support('custom-logo');
 
 
 // Menus
