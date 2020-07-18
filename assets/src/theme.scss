@@ -1,16 +1,42 @@
 // Bootstrap Overrides
+@function color($key: "blue") {
+	@return map-get($colors, $key);
+}
+
+@function theme-color($key: "primary") {
+	@return map-get($theme-colors, $key);
+}
+
+@function gray($key: "100") {
+	@return map-get($grays, $key);
+}
+
 $theme-colors: (
-  "primary": #66ed83,
-  "danger": #ff4136
+	"primary": #637ba5,
+	"secondary": #587099
 );
 
-$btn-border-radius: 0.2rem;
-$dropdown-link-active-bg: #ff4136;
+$btn-border-radius: 0;
+
+$navbar-padding-y: 0.8rem;
+$navbar-nav-link-padding-x: 1rem;
+$navbar-toggler-font-size: 2rem;
+
+$carousel-indicator-width: 2rem;
+$carousel-indicator-height: 0.2rem;
+$carousel-indicator-spacer: 0.3rem;
+$carousel-control-width: 10%;
+$carousel-control-opacity: .6;
+$carousel-control-hover-opacity: 1;
+$carousel-control-icon-width: 2rem;
+$carousel-transition-duration: .8s;
+
 
 // Bootstrap Required
 @import "./node_modules/bootstrap/scss/functions";
 @import "./node_modules/bootstrap/scss/variables";
 @import "./node_modules/bootstrap/scss/mixins";
+
 
 // Bootstrap Optional
 @import "./node_modules/bootstrap/scss/reboot";
@@ -18,9 +44,143 @@ $dropdown-link-active-bg: #ff4136;
 @import "./node_modules/bootstrap/scss/images";
 @import "./node_modules/bootstrap/scss/code";
 @import "./node_modules/bootstrap/scss/grid";
-@import './node_modules/bootstrap/scss/utilities';
-@import './node_modules/bootstrap/scss/nav';
-@import './node_modules/bootstrap/scss/navbar';
-@import './node_modules/bootstrap/scss/transitions';
-@import './node_modules/bootstrap/scss/dropdown';
-@import './node_modules/bootstrap/scss/buttons';
+@import "./node_modules/bootstrap/scss/utilities";
+@import "./node_modules/bootstrap/scss/nav";
+@import "./node_modules/bootstrap/scss/navbar";
+@import "./node_modules/bootstrap/scss/transitions";
+@import "./node_modules/bootstrap/scss/dropdown";
+@import "./node_modules/bootstrap/scss/buttons";
+@import "./node_modules/bootstrap/scss/carousel";
+
+//Theme variables
+$edp-primary: #637ba5;
+$edp-secondary: #4a6da8;
+
+$edp-topnav-height: 40px;
+$edp-logobar-height: 100px;
+$edp-carousel-height: 600px;
+
+
+//Theme CSS
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-center-vert {
+	display: flex;
+	align-items: center;
+}
+
+.top-nav {
+	width: 100%;
+	height: $edp-topnav-height;
+	background-image: linear-gradient(to bottom right, theme-color('primary'), theme-color('secondary'));
+	color: white;
+}
+
+.top-nav .container-fluid,
+.top-nav .row {
+	height: 100% !important;
+}
+
+.top-nav .vl {
+	display: inline;
+	border: 1px inset white;
+	margin: 0 1rem;
+}
+
+.top-nav .contact-details {
+	font-weight: bold;
+}
+
+.top-nav .icon {
+	width: 30px;
+	height: 30px;
+}
+
+.logo-bar {
+	height: $edp-logobar-height;
+	background-color: white;
+}
+
+.logo-bar .container,
+.logo-bar .row {
+	height: 100% !important;
+}
+
+.logo-bar img {
+	width: auto;
+	height: 60px;
+}
+
+.logo-bar .sitename {
+	font-size: 1.6rem;
+	line-height: 1.8rem;
+	font-weight: 300;
+}
+
+.logo-bar .btn-dziennik {
+	font-size: 1.2rem;
+	padding: 0.5rem 1rem;
+}
+
+.navbar .nav-link {
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 1.4rem;
+}
+
+.navbar {
+	background-color: #F5F5F5 !important;
+}
+
+.slider .carousel-inner {
+	width:100%;
+	height: $edp-carousel-height !important;
+}
+
+.slider .carousel-item img {
+	object-fit: cover;
+	height: $edp-carousel-height !important;
+}
+
+.slider .carousel-filter {
+	width: 100%;
+	height: $edp-carousel-height;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: black;
+	z-index: 1;
+	opacity: 0.6;
+}
+
+.slider .carousel-caption {
+	width: 70%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	bottom: auto !important;
+}
+
+.slider .vl {
+	display: inline;
+	border: 2px solid white;
+	z-index: 20;
+	margin: 0 5%;
+}
+
+.slider .caption-title {
+	margin: 0;
+	width: 50%;
+	justify-content: flex-end;
+}
+
+.slider .caption-content {
+	margin: 0;
+	width: 50%;
+	font-size: 1.2rem;
+}
